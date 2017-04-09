@@ -1,20 +1,7 @@
 ## Project: Build a Traffic Sign Recognition Program
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-**Traffic Sign Recognition** 
-
----
-
-**Build a Traffic Sign Recognition Project**
-
-The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
-
+[image0]: ./writeup_images/intro.png "Visualization"
 [image1]: ./writeup_images/visualization.png "Visualization"
 [image2]: ./extra_test_images/bumpy-road.jpg "Traffic Sign 1"
 [image3]: ./extra_test_images/children_crossing.jpg "Traffic Sign 2"
@@ -30,8 +17,18 @@ The goals / steps of this project are the following:
 [image13]: ./writeup_images/predictions1.png "Predictions1"
 [image14]: ./writeup_images/predictions2.png "Predictions2"
 
+![alt text][image0]
 
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+**Traffic Sign Recognition** 
+
+The goals / steps of this project are the following:
+* Load the data set (see below for links to the project data set)
+* Explore, summarize and visualize the data set
+* Design, train and test a model architecture
+* Use the model to make predictions on new images
+* Analyze the softmax probabilities of the new images
+* Summarize the results with a written report
+
 
 here is a link to my [project code](https://github.com/ore92/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
