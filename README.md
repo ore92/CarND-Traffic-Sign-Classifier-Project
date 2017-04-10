@@ -90,7 +90,9 @@ Here are 11 German traffic signs that I found on the web:
 ![alt text][image6] ![alt text][image7] ![alt text][image8] ![alt text][image9] 
 ![alt text][image10] ![alt text][image11] ![alt text][image12] 
 
-from the images above, 9 out of 11 images were classified correcly (**81% accurate**);  two classified incorrectly one was a  speed limit signs that the numbers were wrong; the other was ahead only instead of ahead and left. Both predictions are reasonable guesses in context. Perharps a seperate classifier can be used to detect numbers on the speed limit signs.
+
+#### Discussion on new images
+The images included the signs in slightly different orientations e.g the general caution sign was a bit tilted to the left but this was still classified correctly. The percentage of the images that was the sign varied but this did not seem to stump the classifier. What stumped the classifier, was recognizing the speed limit number on speed limit signs and the difference between similar sign i.e ahead and left vs just left. From the images above, 9 out of 11 images were classified correcly (**81% accurate**);  two classified incorrectly one was a  speed limit signs that the numbers were wrong; the other was ahead only instead of ahead and left. Both predictions are reasonable guesses in context. Perharps a seperate classifier can be used to detect numbers on the speed limit signs. 
 
 
 Here are the results of the prediction and the certainty of predictions from softmax probablities:
